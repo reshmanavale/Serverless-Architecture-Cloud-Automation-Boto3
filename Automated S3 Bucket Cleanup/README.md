@@ -78,7 +78,8 @@ Below are screenshots demonstrating the setup and execution of the Lambda functi
 
 
 ### 3. successful Testing
-![Screenshot 2025-03-08 203325](https://github.com/user-attachments/assets/56fce4b9-2832-4fe0-8d4c-368ab48b2d7a)
+![Screenshot 2025-03-08 201252](https://github.com/user-attachments/assets/b76ee50a-6f29-4fff-962c-bcff0f4570a9)
+
 
 
 ## Expected Output
