@@ -26,7 +26,15 @@ Automate the stopping and starting of EC2 instances based on their tags using AW
 
 ### 5. Screenshots
 - [ ] EC2 instance setup
+- [ ] ![Screenshot 2025-03-05 082554](https://github.com/user-attachments/assets/26893f7f-b35d-413d-b90c-983bc1f24d7d)
+
 - [ ] IAM role creation
+- [ ] ![Screenshot 2025-03-08 183003](https://github.com/user-attachments/assets/c796cab6-7732-4011-a027-ebda34eb0173)
+
 - [ ] Lambda function configuration
-- [ ] CloudWatch logs
+      ![Screenshot 2025-03-05 083320](https://github.com/user-attachments/assets/caa479e9-2a11-45d8-bada-f68c682f201d)
+
+- [ ] Successful Testing
+      ![Screenshot 2025-03-05 083212](https://github.com/user-attachments/assets/893069cb-b4ef-422c-bf68-a546150c3016)
+
 
