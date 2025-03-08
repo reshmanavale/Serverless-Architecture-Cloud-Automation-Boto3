@@ -70,16 +70,16 @@ Replace `your-bucket-name` with the actual S3 bucket name.
 Below are screenshots demonstrating the setup and execution of the Lambda function:
 
 ### 1. AWS Lambda Function Setup
-![Lambda Setup](screenshots/lambda_setup.png)
+<img width="820" alt="image" src="https://github.com/user-attachments/assets/254b9430-e1c8-4517-97c8-cc754c089187" />
+
 
 ### 2. IAM Role Permissions
-![IAM Role](screenshots/iam_role.png)
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/44c0df4f-b6c9-41f3-9cb0-66ad04951d94" />
 
-### 3. Adding EventBridge Trigger
-![EventBridge Trigger](screenshots/eventbridge_trigger.png)
 
-### 4. CloudWatch Logs Showing Deleted Files
-![CloudWatch Logs](screenshots/cloudwatch_logs.png)
+### 3. successful Testing
+![Screenshot 2025-03-08 203325](https://github.com/user-attachments/assets/56fce4b9-2832-4fe0-8d4c-368ab48b2d7a)
+
 
 ## Expected Output
 If files older than **30 days** exist, the response will look like:
@@ -98,14 +98,6 @@ If no files meet the criteria, the response will be:
 ## Conclusion
 This Lambda function provides an automated way to clean up old files from an S3 bucket. You can modify the retention period by changing `minutes=5` to `days=30` or any other value as needed.
 
----
-
-### 📌 **Next Steps**
-✅ Modify the function to work with **different time periods**.
-✅ Schedule the function to run at **custom intervals** using EventBridge.
-✅ Extend functionality to **exclude specific file types or prefixes**.
-
----
 
 ### **Author:** Reshma Navale
 📅 **Date:** March 2025
